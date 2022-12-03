@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="jp">
+	<head>
+		<meta charset="UTF8" />
+		<title>ブログ投稿ページ</title>
+	</head>
+
+	<body>
+		<h1>ブログ投稿ページ</h1>
+		<form action="/blog/create" method="POST">
+			タイトル:<input type="text" name="title" />
+			<br />
+			要約:<input type="text" name="summary" />
+			<br />
+			イメージ:<input type="text" name="image" placeholder="/img1.jpg" />
+			<br />
+			本文:<textarea name="textBody" rows="15"></textarea>
+			<br />
+			<button type="submit">投稿</button>
+		</form>
+	</body>
+</html>
